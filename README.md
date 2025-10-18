@@ -1,4 +1,4 @@
-# 🌸 TipsCode by Yasmine
+# 🌸 TipsCode de Yasmine
 
 Bienvenue dans mon recueil personnel de **tips et notes de code**.  
 Chaque fichier regroupe les **tips et notes de code** que j’utilise au quotidien dans mes projets.💻
