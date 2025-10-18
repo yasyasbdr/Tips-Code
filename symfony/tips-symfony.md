@@ -1,17 +1,17 @@
-♥ Créer un nouveau projet (dans le terminal) :
+## ♥ Créer un nouveau projet (dans le terminal) :
 symfony new --webapp my_project
 
-♥ Construire microservice, console application or API (dans le terminal):
+## ♥ Construire microservice, console application or API (dans le terminal):
 symfony new my_project
 
-♥ Lancer mon serveur :
+## ♥ Lancer mon serveur :
 symfony server:start
 
-♥ Créer une entity (dans le terminal) :
+## ♥ Créer une entity (dans le terminal) :
 php bin/console make:entity
 
 
-♥ Importer Fixtures :
+## ♥ Importer Fixtures :
 php bin/console make:fixtures
 
 https://www.doctrine-project.org/projects/doctrine-orm/en/3.3/reference/inheritance-mapping.html
