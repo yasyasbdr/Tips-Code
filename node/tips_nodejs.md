@@ -27,9 +27,9 @@ Node --version
 ET
 npm --version
 
-♥ Mettre à jour la version de npm :
+## ♥ Mettre à jour la version de npm :
 npm install -g npm@lates
 
-♥ Installer une bibliothèque (ici les bibliothèques express, jsonwebtoken et body-parser):
+## ♥ Installer une bibliothèque (ici les bibliothèques express, jsonwebtoken et body-parser):
 npm install express jsonwebtoken body-parser
 
