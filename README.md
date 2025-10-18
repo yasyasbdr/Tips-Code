@@ -1,7 +1,11 @@
 # 🌸 TipsCode by Yasmine
 
 Bienvenue dans mon recueil personnel de **tips et notes de code**.  
-Chaque dossier correspond à une technologie ou un outil que j’utilise régulièrement 💻
+Chaque fichier regroupe les **tips et notes de code** que j’utilise au quotidien dans mes projets.💻
+Je les partage ici sur GitHub au cas où cela pourrait aider quelqu’un d’autre 💛  
+
+> ⚠️ Ce n’est pas une documentation officielle !  
+> J’update les fichiers de manière très personnelle et aléatoire, selon mes besoins du moment 😄  
 
 ---
 
