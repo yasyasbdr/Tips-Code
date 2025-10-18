@@ -1,4 +1,11 @@
- Table des matières
+# 🌸 TipsCode by Yasmine
+
+Bienvenue dans mon recueil personnel de **tips et notes de code**.  
+Chaque dossier correspond à une technologie ou un outil que j’utilise régulièrement 💻
+
+---
+
+## 📚 Table des matières
 
 | Dossier | Description |
 |----------|--------------|
@@ -13,10 +20,8 @@
 | [sql](./sql/tips-sql.md) | Requêtes, clés et jointures |
 | [symfony](./symfony/tips-symfony.md) | Commandes et structures |
 | [tailwind](./tailwind/tips-tailwindcss.md) | Classes utilitaires & layout |
-| [️ Tags globaux
-#dev #frontend #backend #docker #git #php #node #typescript #css
+| [typescript](./typescript/tips-typescript.md) | Typage, interfaces, génériques |
 
 ---
 
-> ✨ Visitez mon portfolio [Yasmine Badarou](https://yasmine-badarou-portfolio.netlify.app)
-typescript](./typescript/tips-typescript.md) 
+> ✨ By [Yasmine Badarou], n'hésitez pas à visiter mon portfolio (https://yasmine-badarou-portfolio.netlify.app)
