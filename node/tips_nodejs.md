@@ -1,28 +1,28 @@
 /!\ Un fichier "app.js" est nécessaire pour démarrer un projet Node js 
-♥ Installer bibliothèques Node.js et npm (terminal):
+## ♥ Installer bibliothèques Node.js et npm (terminal):
 npm init -y
 npm install express jsonwebtoken body-parser cors
 
-♥ Initialiser un projet Node.js (va créer mon package.json) :
+## ♥ Initialiser un projet Node.js (va créer mon package.json) :
 npm init -y
 
-♥ Exécuter le serveur (dans le terminal) :
+## ♥ Exécuter le serveur (dans le terminal) :
 node app.js
 
-♥ Importer un module Node.js :
+## ♥ Importer un module Node.js :
 const http = require('http');// Module http pour créer un serveur
 const fs = require('fs'); // Module pour interagir avec le système de fichiers (file system)
 const url = require('url');// Module pour analyser l'URL des requêtes
 const crypto = require('crypto');// Module pour générer des identifiants uniques (comme pour les sessions)
 
-♥ Créer un serveur HTTP :
+## ♥ Créer un serveur HTTP :
 
-♥ Démarrer le serveur sur le port 3000 :
+## ♥ Démarrer le serveur sur le port 3000 :
 server.listen(3000, () => {
   console.log('Serveur démarré sur http://localhost:3000');
 });
 
-♥ Vérifier que Node js est bien installé :
+## ♥ Vérifier que Node js est bien installé :
 Node --version
 ET
 npm --version
