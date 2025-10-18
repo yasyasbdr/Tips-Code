@@ -1,5 +1,5 @@
-♥ Installer 
+## ♥ Installer 
 npm install -D tailwindcss
 
-♥ Initialiser le projet :
+## ♥ Initialiser le projet :
 npx tailwindcss init
