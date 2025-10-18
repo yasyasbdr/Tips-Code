@@ -1,18 +1,18 @@
-♥ Créer un nouveau projet (ouvrir terminal dans fichier du nouveau projet):
+## ♥ Créer un nouveau projet (ouvrir terminal dans fichier du nouveau projet):
 Taper dans l'ordre:
 - initialiser un nouveau projet : npm init -y
 - Installer TypeScript : npm install typescript --save-dev
 
-♥ Créer une variable:
+## ♥ Créer une variable:
 const age: number = 10;
 
-♥ Compiler un projet (avec le terminal):
+## ♥ Compiler un projet (avec le terminal):
 tsc -p [chemin dossier]/tsconfig.json (Le résultat se retrouve dans out/.)
 
-♥ Compiler un fichier ts:
+## ♥ Compiler un fichier ts:
 npx tsc nomdufichier.ts
 
-♥ Contenu du tsconfig.json à mettre dans le dossier du projet:
+## ♥ Contenu du tsconfig.json à mettre dans le dossier du projet:
 {
     "compilerOptions": {
       "target": "ES5",
@@ -24,7 +24,7 @@ npx tsc nomdufichier.ts
 }
 
 
-♥ Créer une classe:
+## ♥ Créer une classe:
 class Voiture {
 	public position: number = 0;
 	private vitesse: number = 42;
@@ -37,7 +37,7 @@ class Voiture {
 /*(Ici on déclare la classe simple Voiture. La classe a trois membres: vitesse propriété privée, une position propriété publique et un seDeplacer() méthode publique. Chaque membre est public par défaut. )*/
 
 
-♥ Utilisation d'une classe (ici Voiture):
+## ♥ Utilisation d'une classe (ici Voiture):
 // Création d'une instance de la classe Voiture
 var auto1 = new Car();
 // Appel de la méthode
@@ -46,7 +46,7 @@ auto1.seDeplacer();
 console.log(auto1.position); 
 
 
-♥ Créer une sous-classe (ici Taxi):
+## ♥ Créer une sous-classe (ici Taxi):
 class Taxi extends Vehicule {
 private numLicence: string;
 seDeplacer() {
@@ -57,7 +57,7 @@ super.seDeplacer
 /*(La sous-classe Taxi spécialise la classe Vehicule, en ajoutant un attribut privé (numLicence) et en surchargeant la méthode seDeplacer(). Pour que la sous-classe accède aux membres (Attributs et méthodes) de la classe, il faut qu'ils soient public ou protected.)*/
 
 
-♥ Créer un constructeur (ici dans notre classe Voiture):
+## ♥ Créer un constructeur (ici dans notre classe Voiture):
 class Voiture {
 public position: number = 0;
 protected vitesse: number = 42;
@@ -82,7 +82,7 @@ this.position += this.vitesse;
 }
 
 
-♥ Créer une fonction:
+## ♥ Créer une fonction:
 function damage(characterToDamage, amount: number): number {
     characterToDamage.life -= amount;
     return characterToDamage.life;
@@ -91,14 +91,14 @@ const result = damage({ life: 100 }, 12);
 console.log(result);
 
 
-♥ Créer un type (alias):
+## ♥ Créer un type (alias):
 // On définit deux alias Money et Age, pour qu’ils soient identiques à 'number'
 type Money = number;
 type Age = number;
 type CodeSecret = string | number; // le type CodeSecret peut contenir du texte ou des nombres
 
 
-♥ Déclarer un objet:
+## ♥ Déclarer un objet:
 { nomobjet: typeobjet/*(number, string, etc)*/; };
 //Exemple de déclaration d'objet dans des types:
 type Character = {
@@ -131,7 +131,7 @@ interface Hero extends Character {
 };
 
 
-♥ Créer un tableau avec type:
+## ♥ Créer un tableau avec type:
 type MyArrayOfNumbers = number[]; // Définition d'un tableau de nombres
 // Que des nombres, c'est OK !
 const arrayOk: MyArrayOfNumbers = [1, 2, 3]; //ou type MyArrayOfNumbers = Array<number>;
@@ -139,5 +139,5 @@ const arrayOk: MyArrayOfNumbers = [1, 2, 3]; //ou type MyArrayOfNumbers = Array<
 const arrayNotOk: MyArrayOfNumbers = [1, 'two', false];
 
 
-♥ Transformer un type en générique:
+## ♥ Transformer un type en générique:
 type Shop<ItemType> = { /* … */  };
