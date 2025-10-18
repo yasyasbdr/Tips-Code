@@ -1,4 +1,4 @@
-♥ Commencer une page HTML :
+## ♥ Commencer une page HTML :
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -24,21 +24,21 @@
 </html>
 
 
-♥ Point d'ancrage:
+## ♥ Point d'ancrage:
 Mettre dans la balise concernée par l'ancrage : name="NOMDELANCRE"
 Mettre dans le lien vers l'ancre: <a href="Page1.html#NOMDELANCRE">
 
-♥ La création de tableaux:
+## ♥ La création de tableaux:
 On ouvre la balise <table> qui nous permet de coder le tableau à l'intérieur.
 <caption> : l'élément de légende d'un tableau (toujours premier descendant de <table>)
 <tr> : l'élément de ligne d'un tableau
 <th> : l'élément d'en-tête de tableau (dans l'élément <tr>)
 <td> : l'élément de cellule de tableau (dans l'élément <tr>)
 
-♥Faire des listes:
+## ♥ Faire des listes:
 <ul> : Insérer la liste (porte <li> et <ol> à l'intérieur)
 
-♥ Faire une sélection:
+## ♥ Faire une sélection:
 <label for="pet-select">Choose a pet:</label>
 
 <select name="pets" id="pet-select">
@@ -47,7 +47,7 @@ On ouvre la balise <table> qui nous permet de coder le tableau à l'intérieur.
     <option value="cat">Cat</option>
 </select>
 
-♥ Faire un formulaire:
+## ♥ Faire un formulaire:
 <form action="" method="get" class="form-example">
     <label for="name">Enter your name: </label>
     <input type="text" name="name" id="name" required />
@@ -62,7 +62,7 @@ On ouvre la balise <table> qui nous permet de coder le tableau à l'intérieur.
   </textarea>
 </form>
 
-♥ Boutons radio:
+## ♥ Boutons radio:
 <input type="radio" id="huey" name="drone" value="huey" checked />
 <label for="huey">Huey</label>
 
