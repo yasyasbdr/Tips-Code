@@ -1,6 +1,6 @@
-## ♥ Commandes basiques :
-// Créer un repository
-git init
+## ♥ Commandes basiques :  
+// Créer un repository  
+```git init```  
 
 // Connaître état fichiers qui sont add/commit ou pas et sur quelle branche  
 ```git status```  
