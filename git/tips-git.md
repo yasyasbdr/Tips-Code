@@ -17,6 +17,9 @@
 // Add contents of new or changed files to the index (index=staging area)  
 ```git add```  
 
+// Donner des infos sur les commits  
+```git log``` ou ```git show //plus d'infos``` 
+
 ## ♥ Mettre à jour mon dépôt GitHub :
 ```git pull origin main```  
 ```git add .```  
