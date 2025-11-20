@@ -14,6 +14,9 @@
 // Fusionner localement les modifs d'un repo distant  
 ```git pull```  
 
+// Add contents of new or changed files to the index (index=staging area)
+```git add```
+
 ## ♥ Mettre à jour mon dépôt GitHub :
 ```git pull origin main```  
 ```git add .```  
