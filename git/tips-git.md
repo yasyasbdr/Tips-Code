@@ -77,5 +77,3 @@ PUIS AJOUTER LE NOM DES FICHIERS À IGNORER
 
 ## ♥ Fusionner des branches :
 ```git merge```  
-
-## ♥ Fusionner des branches :
