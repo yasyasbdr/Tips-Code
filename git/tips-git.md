@@ -16,11 +16,13 @@
 
 // Add contents of new or changed files to the index (index=staging area)  
 ```git add```  
+OR  
+```git add -u``` (stage deletions too, - The `u` option updates the index to match the working directory. It stages the changes for files that have been deleted, modified, or renamed.)
 
-// Look at a branch's history 
+// Look at a branch's history  
 ```git log```
 
-// Show diff between a commit and its parent
+// Show diff between a commit and its parent  
 ```git show``` 
 
 ## ♥ Mettre à jour mon dépôt GitHub :
