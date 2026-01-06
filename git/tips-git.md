@@ -11,7 +11,7 @@
 // Fusionner des branches  
 ```git merge```  
 
-// Fusionner localement les modifs d'un repo distant  
+// Integrate changes from a remote repository into the current branch.
 ```git pull```  
 
 // Add contents of new or changed files to the index (index=staging area)  
