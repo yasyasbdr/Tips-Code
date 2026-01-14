@@ -1,5 +1,5 @@
 ## ♥ Commencer une page HTML :  
-# Raccourcis :  
+### Raccourcis :  
 Ecrire un commentaire  
 1. Selectioner la/les lignes en question  
 2. Puis ```CTRL``` + ```k``` puis ```CTRL``` + ```c```  
