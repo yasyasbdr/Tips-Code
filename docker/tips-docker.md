@@ -35,49 +35,49 @@ docker build
 docker run -di --name alpinetest alpine:latest sleep infinity 
 
 ## ♥ Lancer le conteneur nginx, le nommer monnginx, le laisser fonctionner. Rediriger son port 80 sur le 8080 de notre machine locale :
-docker run -tid -p 8080:80 --name monnginx nginx:latest  
+```docker run -tid -p 8080:80 --name monnginx nginx:latest```   
 
 ## ♥ Lancer un conteneur alpine que l'on nomme conteneur2, le linker avec conteneur1 (conteneur2 pourra pinguer conteneur1) :
-docker run -tid --name conteneur2 --link conteneur1 alpine
+```docker run -tid --name conteneur2 --link conteneur1 alpine```  
 
 ## ♥ Redémarrer un conteneur arrêté :
-docker start monconteneur 
+```docker start monconteneur```   
 
 ## ♥ Accéder à un conteneur en cours d'exécution pour exécuter des commandes directement à l'intérieur (comme si tu te connectais à une machine virtuelle) :
-docker exec -it [nom_du_conteneur] bash
+```docker exec -it [nom_du_conteneur] bash```  
 
 ## ♥ Se connecter au conteneur nommé monnginx avec le shell et le bach :
-docker exec -ti monnginx sh 
+```docker exec -ti monnginx sh```   
 
 ## ♥ Arrêter un conteneur :
-docker stop <nom du conteneur> 
+```docker stop <nom du conteneur>```  
 
 ## ♥ Tuer tous les conteneurs :
-docker container kill $(docker ps -q)
+```docker container kill $(docker ps -q)```  
 
 ## ♥ Supprimer un conteneur (-f permet de forcer, même si le conteneur tourne) :
-docker rm -f <nom du conteneur> 
+```docker rm -f <nom du conteneur>```  
 
 ## ♥ Supprimer tous les conteneurs :
-docker rm $(docker ps -a -q) 
+```docker rm $(docker ps -a -q)```    
 
 ## ♥ Obtenir les infos sur un conteneur :
-docker inspect <nom du conteneur> 
+```docker inspect <nom du conteneur>```  
 
 ## ♥ Obtenir l'ip d'un conteneur :
-docker inspect-f "{{.NetworkSettings.IPAddress}}" <nom du conteneur> 
+```docker inspect-f "{{.NetworkSettings.IPAddress}}" <nom du conteneur>```  
 
 ## ♥ Démarre les conteneurs définis dans docker-compose.yml. S'ils n'existent pas encore, Docker les créera :
-docker compose up
+```docker compose up```  
 
 ## ♥ Arrête et supprime les conteneurs :
-docker compose down
+```docker compose down```  
 
 ## ♥ Accéder aux logs d'un conteneur :
-docker compose logs <nom_du_conteneur>
+```docker compose logs <nom_du_conteneur>```  
 
 ## ♥ Accéder aux logs d'un conteneur et suivre en temps réel :
-docker compose logs -f <nom_du_conteneur>
+```docker compose logs -f <nom_du_conteneur>```  
 
 ## ♥ Envoyer une requête à l'API pour tester la connexion avec utilisateurs fournis :
 -Ouvre Postman.
@@ -95,10 +95,11 @@ json
 -Clique sur Send.
 
 ## ♥ Me connecter au terminal d'une VM via mon PowerShell Windows :
-ssh -p 2222 root@127.0.0.1
-ps aux | grep python
+```ssh -p 2222 root@127.0.0.1
+ps aux | grep python```  
 
-♥ Voir les jobs en arrière-plan :
-jobs -l
+## ♥ Voir les jobs en arrière-plan :  
+```jobs -l```  
+
 
 
